@@ -1,0 +1,18 @@
+.linesize{
+	line-height: 0;
+	}
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+	
+	letter-spacing: 3px;
+	
+}
+.boder{
+	border-style: solid;
+	border-color: red;
+	border-radius: 100px;
+}

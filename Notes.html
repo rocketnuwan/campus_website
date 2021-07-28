@@ -1,0 +1,476 @@
+<html>
+<head>
+<Title>Notes</Title>
+<link rel="stylesheet" type="text/css" href="defaultpage.css">
+
+<style>
+
+
+
+
+
+
+h2 {
+  background-color: black;
+  color: aa99cc;
+}
+.a{
+  background-color: black;
+  color: aa99cc;
+}
+
+
+.header {
+  padding: 1%;
+  text-align: center;
+  
+  color: white;
+  font-size: 160%;
+   background-image: url("hh.jpg");
+ 
+}
+  
+  body  {
+  background-image: url("nn.jpg");
+  background-color: #333333; 
+}
+ p{color: white;}
+ 
+
+ 
+ 
+  {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 0px;
+  height: 209px; /* Should be removed. Only for demonstration */
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+ 
+ 
+ .dropbtn {
+  background-color:#444499;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  
+  
+  
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #ff2255;
+}
+
+.dropdown {
+  position: content;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position:relative;
+  background-color: #999;
+  min-width: 290px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #fff;}
+
+.show {display: block;}
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #2755ff;
+}
+
+.li {
+  float: left;
+  font-size: 120%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+ 
+ .b{font-size: 20px;
+   color: white;
+  text-align: center;}
+ 
+.active {
+  background-color: #717177;
+}
+.cbutton {
+  background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 10px;
+  cursor: pointer;
+}
+.button3 {border-radius: 8px;}
+
+
+ 
+ 
+
+</style>
+
+
+<body >
+
+<div class="header">
+
+<img  src="baj.png" class="imgcenter" class="boder">
+
+
+<h1 align=center >Department of Computer Science</h1>
+  
+<h4 class="linesize" align=center>Trincomalee campus Eastern university of sri lanka</h4>
+</div>
+<ul>
+  <li><a class=" li" href="Home.html">Home</a></li>
+  <li><a  class="li" href="Subjets.html">Course & credits</a></li>
+  <li><a class="active li" href="Notes.html"> Notes</a></li>
+  <li><a class="li" href="passPapers.html">past papers</a></li>
+  <li><a class="li" href="staff.html">Academic Staff</a></li>
+  
+</ul>
+<br>
+<h3  class="b"><big><b><u>Notes</u></b></big></h3>
+
+
+
+<div class="row">
+  <div class="column">
+    <h1 class="a">FIRST YEAR</h1>
+    <p>
+	<br><hr><br><p>
+	
+	<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Semester I</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="https://drive.google.com/open?id=1B69doJYy6iovtWrb5NrbPyxOC-cqQQZg">CO1121/Basic Mathematics for Computing</a>
+    <a href="https://drive.google.com/open?id=1dS_6U21rpgzXuuFgAgC_e0fve731PFje">CO1122/Basic Computer Programming </a>
+    <a href="https://drive.google.com/open?id=1919FiusczWelf0wIMtd7BurPGbrbR0D3">CO1112/Practical Work on CO1122</a>
+	<a href="https://drive.google.com/open?id=19DJfbY_sJpj5xzmn6EROjsVKrZGr_7Gx">CO1123/Formal Methods for Problem Solving</a>
+    <a href="https://drive.google.com/open?id=1HmNEEiCZLOl1odhzNKhAG_EjULVm-5L6">CO1124/Computer Systems & PC Applications</a>
+    <a href="https://drive.google.com/open?id=1YC6UTkoG9m9hbK_jRSPMVBn9dW811Q53">CO1114/Practical Work on CO1124</a>
+	<a href="https://drive.google.com/open?id=1O0L2oIV6UEJ-nW7QRwEkqkVfpRKwwrOX">CO1125/Statistics for Science and Technology</a>
+    <a href="https://drive.google.com/open?id=1iWYPw6o6UV3X_R1J-HtN-KMME8GOp_Mw">CO1115/Practical Work on CO1125</a>
+    <a href="https://drive.google.com/open?id=1HJiz0652xQX274CE6xTWuzQQPc519oBf">CO1126/Management Information System</a>
+  </div>
+  
+  <script>
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+</script>
+ 
+</p> <br>
+  </div>
+
+
+ </div>
+  
+  
+  
+  
+  <div class="column" >
+    <h1 class="a">SECOND YEAR</h1>
+    <p>
+	
+	
+		<br><hr><br><p>
+	
+	<div class="dropdown">
+  <button onclick="my3()" class="dropbtn">Semester I</button>
+  <div id="myt" class="dropdown-content">
+    <a href="#home">Not available</a>
+
+  </div>
+  
+  <script>
+
+function my3() {
+  document.getElementById("myt").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+</script>
+  
+</p>
+
+  
+</p>
+  </div>
+	
+	
+	</p>
+  </div>
+  <div class="column">
+    <h1 class="a">THIRD YEAR</h1>
+    <p>
+	
+	
+		<br><hr><br><p>
+	
+	<div class="dropdown">
+  <button onclick="my5()" class="dropbtn">Semester I</button>
+  <div id="m" class="dropdown-content">
+    <a href="#home"> Not available</a>
+
+  </div>
+  
+  <script>
+
+function my5() {
+  document.getElementById("m").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+</script>
+  
+</p>
+  </div>
+</div>
+<hr>
+
+<div class="row">
+  <div class="column">
+    
+    <p>
+	<br><hr><p><br>
+	
+	<div class="dropdown">
+  <button onclick="my1()" class="dropbtn">Semester II</button>
+  <div id="myD1" class="dropdown-content">
+    <a href="https://drive.google.com/open?id=1SvfWtXK9TLyGJA_11XvUjoJh39uiN3bg">CO1221/System Analysis & Design</a>
+    <a href="https://drive.google.com/open?id=1fz6VRhtgkYE7Y_y3sHPLgPVZXRVAMu6x">CO1222/Data Structures & Algorithms </a>
+    <a href="https://drive.google.com/open?id=1EWmXFL7M080DT73mHAHinI8DzEggwacZ">CO1212/Practical Work on CO1222</a>
+	<a href="https://drive.google.com/open?id=1eMInsgYiPbacFPHNjqcbjCV2TlsYUq8Q">CO1223/Data Base Management Systems</a>
+    <a href="https://drive.google.com/open?id=1ksUjB35-3-erB01getsQQF_zfNyRUhB0">CO1213/Practical Work on CO1223</a>
+    <a href="https://drive.google.com/open?id=1b9oGi-6VqDqEhsE9iEhK3ylo5PQPoZr7">CO1224/Multi Media & Hyper Medea Development</a>
+	<a href="https://drive.google.com/open?id=1Ho2MYINul87fKVk-wbaIZ78wR_kWxXHp">CO1214/Practical Work on CO1224</a>
+    <a href="https://drive.google.com/open?id=1FvxPNjVp2QNT1MOCUET5DUfawqsKwZz_">CO1225/Computer Architecture</a>
+    <a href="https://drive.google.com/open?id=1is43KNsLxxovKXIaaBC9TaKQq5qfewR5">CO1226/Social Harmony</a>
+  </div>
+  
+  <script>
+
+function my1() {
+  document.getElementById("myD1").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+</script>
+  
+</p>
+  </div>
+
+
+ </div>
+  
+  
+  
+  
+  <div class="column" >
+   
+    <p>
+	
+	
+		<br><hr><p><br>
+	
+	<div class="dropdown">
+  <button onclick="my4()" class="dropbtn">Semester II</button>
+  <div id="myd4" class="dropdown-content">
+    <a href="#home">Not available </a>
+
+  </div>
+  
+  <script>
+
+function my4() {
+  document.getElementById("myd4").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+</script>
+  
+</p>
+
+  
+</p>
+  </div>
+	
+	
+	</p>
+  </div>
+  <div class="column">
+    
+    <p>
+	
+	
+		<br><hr><p><br>
+	
+	<div class="dropdown">
+  <button onclick="my6()" class="dropbtn">Semester II</button>
+  <div id="myd6" class="dropdown-content">
+    <a href="#home"> Not available</a>
+
+  </div>
+  
+  <script>
+
+function my6() {
+  document.getElementById("myd6").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+</script>
+  
+</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+<a href="http://lms.esn.ac.lk/fas/"><p>👉👉👉 If you have LMS account click here 👈👈👈
+</p></a>
+<hr>
+<img src="dp.png" width=80% height=20% class="imgcenter">
+<hr>
+
+
+Copyright © 2020 | TCEUSL CS Student | All Rights Reserved. © 2k2k 
+</body>
+</html>
