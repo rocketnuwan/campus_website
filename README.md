@@ -2,12 +2,12 @@ assignment project
 
 only use html,css,java scrip,
 
-like universty website
+universty website
 
 how to open:
 
-	Home.html 
+	index.html 
 	
-![Screenshot (224)](https://user-images.githubusercontent.com/87701301/127762749-e9780ebb-a916-4cde-8a98-6fc11cb6fddc.png)
 
-![Screenshot (225)](https://user-images.githubusercontent.com/87701301/127762751-fa90809e-8392-4ac0-b0c7-9f427e52dc1d.png)
+![Screenshot (7)](https://user-images.githubusercontent.com/87701301/137587511-eb049c17-5c8f-4cfb-a4fb-89e5b4463a51.png)
+![Screenshot (8)](https://user-images.githubusercontent.com/87701301/137587516-025192fd-6543-4430-90c1-b2b46488338c.png)
